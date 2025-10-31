@@ -1,0 +1,61 @@
+.board-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.project-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.project-selector input,
+.project-selector select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-item {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
